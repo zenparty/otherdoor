@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+}
